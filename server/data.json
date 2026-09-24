@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "_id": "demo-user-0",
+      "name": "Admin",
+      "email": "admin@flowcms.test",
+      "role": "Super Admin",
+      "password": "$2a$10$Hz5jzGwB5EFJHps3V279fePxQRVtJ1f8vOk84bip.Wzu4wKvsmXni",
+      "active": true,
+      "createdAt": "2026-09-24T10:41:12.978Z"
+    },
+    {
+      "_id": "demo-user-1",
+      "name": "Alex Editor",
+      "email": "editor@flowcms.test",
+      "role": "Editor",
+      "password": "$2a$10$Hz5jzGwB5EFJHps3V279fePxQRVtJ1f8vOk84bip.Wzu4wKvsmXni",
+      "active": true,
+      "createdAt": "2026-09-24T10:41:12.978Z"
+    },
+    {
+      "_id": "demo-user-2",
+      "name": "Sam Author",
+      "email": "author@flowcms.test",
+      "role": "Author",
+      "password": "$2a$10$Hz5jzGwB5EFJHps3V279fePxQRVtJ1f8vOk84bip.Wzu4wKvsmXni",
+      "active": true,
+      "createdAt": "2026-09-24T10:41:12.978Z"
+    }
+  ],
+  "pages": [
+    {
+      "_id": "demo-page-home",
+      "title": "Home",
+      "slug": "/",
+      "status": "published",
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Make room for what’s next.",
+          "description": "A smarter, simpler way to shape your digital presence.",
+          "cta": "Explore our work"
+        },
+        {
+          "type": "features",
+          "heading": "Everything works better together",
+          "items": [
+            "Thoughtful design",
+            "Seamless workflows",
+            "Built to grow"
+          ]
+        },
+        {
+          "type": "cta",
+          "heading": "Ready to make your next move?",
+          "description": "Tell us what you are building."
+        }
+      ],
+      "seo": {
+        "seoTitle": "FlowCMS — Content, in flow",
+        "metaDescription": "A modern home for your ideas."
+      },
+      "createdAt": "2026-09-24T10:59:12.8115446Z",
+      "updatedAt": "2026-09-24T10:59:12.8115446Z"
+    },
+    {
+      "_id": "demo-page-about",
+      "title": "About",
+      "slug": "/about",
+      "status": "published",
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Good ideas deserve a great home.",
+          "description": "We help ambitious teams turn their ideas into clear, useful digital experiences.",
+          "cta": "Meet the team"
+        },
+        {
+          "type": "text",
+          "heading": "Our approach",
+          "description": "We pair thoughtful strategy with dependable technology to help your team move with confidence."
+        }
+      ],
+      "createdAt": "2026-09-24T10:59:12.8115446Z",
+      "updatedAt": "2026-09-24T10:59:12.8115446Z"
+    }
+  ],
+  "posts": [
+    {
+      "_id": "demo-post-design",
+      "title": "A calmer approach to digital design",
+      "slug": "calmer-digital-design",
+      "excerpt": "A few principles that make every digital interaction feel more human.",
+      "content": "Great design does not demand attention. It earns trust through clarity, rhythm and care. Start with the person on the other side of the screen, remove friction, and make the next step feel obvious.",
+      "status": "published",
+      "category": "Design",
+      "tags": [
+        "design",
+        "experience"
+      ],
+      "seo": {
+        "seoTitle": "A calmer approach to digital design",
+        "metaDescription": "Principles for calmer, more human digital design."
+      },
+      "author": "Alex Editor",
+      "authorId": "demo-user-1",
+      "views": 184,
+      "createdAt": "2026-09-24T10:59:12.8115446Z",
+      "updatedAt": "2026-09-24T10:59:12.8115446Z"
+    },
+    {
+      "_id": "demo-post-growth",
+      "title": "Build a content engine that lasts",
+      "slug": "content-engine-that-lasts",
+      "excerpt": "A practical system for publishing consistently without losing your point of view.",
+      "content": "Consistency is a system, not a sprint. Give every idea a clear owner, build a small editorial rhythm and leave enough room for curiosity.",
+      "status": "published",
+      "category": "Growth",
+      "tags": [
+        "content",
+        "growth"
+      ],
+      "seo": {
+        "seoTitle": "Build a content engine that lasts",
+        "metaDescription": "Create a sustainable editorial rhythm for your team."
+      },
+      "author": "Sam Author",
+      "authorId": "demo-user-2",
+      "views": 121,
+      "createdAt": "2026-09-24T10:59:12.8115446Z",
+      "updatedAt": "2026-09-24T10:59:12.8115446Z"
+    },
+    {
+      "_id": "demo-post-draft",
+      "title": "Our next chapter",
+      "slug": "our-next-chapter",
+      "excerpt": "A short note about what we are building next.",
+      "content": "We have been working on something new. More soon.",
+      "status": "draft",
+      "category": "Company News",
+      "tags": [
+        "news"
+      ],
+      "author": "Sam Author",
+      "authorId": "demo-user-2",
+      "views": 0,
+      "createdAt": "2026-09-24T10:59:12.8115446Z",
+      "updatedAt": "2026-09-24T10:59:12.8115446Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "demo-cat-design",
+      "name": "Design",
+      "slug": "design",
+      "createdAt": "2026-09-24T10:59:12.8115446Z",
+      "updatedAt": "2026-09-24T10:59:12.8115446Z"
+    },
+    {
+      "_id": "demo-cat-growth",
+      "name": "Growth",
+      "slug": "growth",
+      "createdAt": "2026-09-24T10:59:12.8115446Z",
+      "updatedAt": "2026-09-24T10:59:12.8115446Z"
+    },
+    {
+      "_id": "demo-cat-news",
+      "name": "Company News",
+      "slug": "company-news",
+      "createdAt": "2026-09-24T10:59:12.8115446Z",
+      "updatedAt": "2026-09-24T10:59:12.8115446Z"
+    }
+  ],
+  "media": [],
+  "contacts": [
+    {
+      "_id": "demo-lead",
+      "name": "Jordan Lee",
+      "email": "jordan@example.com",
+      "message": "I would love to learn more about your services.",
+      "status": "new",
+      "createdAt": "2026-09-24T10:41:12.978Z"
+    }
+  ],
+  "logs": [
+    {
+      "_id": "fe529604-4b20-4a39-936b-fea2a85f34f4",
+      "createdAt": "2026-09-24T11:00:03.468Z",
+      "updatedAt": "2026-09-24T11:00:03.468Z",
+      "workflow": "Contact Notification",
+      "trigger": "Webhook",
+      "result": "Demo workflow executed; notification recorded locally.",
+      "status": "Success",
+      "error": "",
+      "startedAt": "2026-09-24T11:00:03.467Z",
+      "completedAt": "2026-09-24T11:00:03.467Z"
+    },
+    {
+      "_id": "demo-log",
+      "workflow": "Contact Notification",
+      "trigger": "Webhook",
+      "status": "Success",
+      "result": "Demo email notification logged",
+      "startedAt": "2026-09-24T10:41:12.978Z",
+      "completedAt": "2026-09-24T10:41:12.978Z"
+    }
+  ],
+  "settings": []
+}
