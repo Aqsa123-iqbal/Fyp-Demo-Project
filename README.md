@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FlowCMS
 
 FlowCMS is a MERN-style CMS prototype with an editorial dashboard, dynamic public site, JWT auth, MongoDB persistence, Gemini-assisted content, and webhook-based n8n automation. It runs locally in demo mode without paid services; demo mode uses a durable local JSON store when MongoDB is unavailable.
@@ -87,6 +86,3 @@ All write endpoints are RESTful. Admin/editor/author permissions are enforced se
 ## Future enhancements
 
 Cloud object storage, refresh-token rotation, granular permissions, collaborative editing, richer block styling, email provider, advanced analytics, and automated n8n workflow provisioning.
-=======
-# demo-project
->>>>>>> 812bb64ca89d22e5618d453baa7e344a520f3f65
